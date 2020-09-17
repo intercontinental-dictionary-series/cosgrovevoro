@@ -1,0 +1,37 @@
+{
+    "communities": [
+        {
+            "identifier": "lexibank"
+        }
+    ],
+    "upload_type": "dataset",
+    "access_right": "open",
+    "creators": [
+        {
+            "name": "Hans-J\u00f6rg Bibiko"
+        }
+    ],
+    "title": "V\u00f5ro dictionary by Leon Cosgrove and Sulev Iva",
+    "contributors": [
+        {
+            "name": "Leon Cosgrove",
+            "type": "DataCollector"
+        },
+        {
+            "name": "Leon Cosgrove",
+            "type": "DataCurator"
+        },
+        {
+            "name": "Sulev Iva",
+            "type": "DataCollector"
+        }
+    ],
+    "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+    ],
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Leon Cosgrove and Sulev Iva. 2020. V\u00f5ro dictionary. In: Key, Mary Ritchie &amp; Comrie, Bernard (eds.) The Intercontinental Dictionary Series. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at http://ids.clld.org/)</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-4.0"
+    }
+}
