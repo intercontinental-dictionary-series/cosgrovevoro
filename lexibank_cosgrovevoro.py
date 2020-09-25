@@ -28,6 +28,8 @@ class Dataset(IDSDataset):
             DataEntry=personnel['data entry'],
             Consultants=personnel['consultant'],
             Representations=reprs,
+            Latitude=58.0,
+            Longitude=26.6,
             date='2020-09-17',
         )
 
