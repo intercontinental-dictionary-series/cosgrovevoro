@@ -13,17 +13,23 @@ class Dataset(IDSDataset):
 
     def cmd_makecldf(self, args):
         glottocode = "voro1241"
-        transcription = "StandardOrth"
+        reprs = ["StandardOrth"]
 
         args.writer.add_concepts(id_factory=lambda c: c.attributes['ids_id'])
         args.writer.add_sources(*self.raw_dir.read_bib())
+
+        personnel = self.get_personnel(args)
 
         args.writer.add_language(
             ID=glottocode,
             Name="Võro",
             Glottocode=glottocode,
-            Contributors=['Leon Cosgrove|Author', 'Sulev Iva|Author', 'Leon Cosgrove|Data Entry'],
-            default_representation=transcription,
+            Authors=personnel['author'],
+            DataEntry=personnel['data entry'],
+            Consultants=personnel['consultant'],
+            Representations=reprs,
+            Latitude=58.0,
+            Longitude=26.6,
             date='2020-09-17',
         )
 
@@ -35,11 +41,10 @@ class Dataset(IDSDataset):
                     Value=form.form,
                     Comment=form.comment,
                     Source="cosgrove2020",
-                    Transcription=transcription,
+                    Transcriptions=reprs,
                 )
 
-        args.writer.cldf['LanguageTable', 'Contributors'].separator = ";"
-        args.writer.cldf['LanguageTable', 'alt_names'].separator = ";"
+        self.apply_cldf_defaults(args)
 
     def entry_from_row(self, row):
         return IDSEntry("%s-%s" % (row[0], row[1]), ";".join(filter(None, row[3:10])), "", "")

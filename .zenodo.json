@@ -8,6 +8,12 @@
     "access_right": "open",
     "creators": [
         {
+            "name": "Leon Cosgrove"
+        },
+        {
+            "name": "Sulev Iva"
+        },
+        {
             "name": "Hans-J\u00f6rg Bibiko"
         }
     ],
@@ -15,15 +21,7 @@
     "contributors": [
         {
             "name": "Leon Cosgrove",
-            "type": "DataCollector"
-        },
-        {
-            "name": "Leon Cosgrove",
             "type": "DataCurator"
-        },
-        {
-            "name": "Sulev Iva",
-            "type": "DataCollector"
         }
     ],
     "keywords": [
