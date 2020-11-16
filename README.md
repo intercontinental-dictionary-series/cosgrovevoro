@@ -1,4 +1,4 @@
-# Võro dictionary by Leon Cosgrove and Sulev Iva
+# Võro IDS wordlist by Leon Cosgrove and Sulev Iva
 
 Cite the source dataset as
 
