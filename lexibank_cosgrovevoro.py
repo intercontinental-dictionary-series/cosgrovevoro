@@ -48,3 +48,4 @@ class Dataset(IDSDataset):
 
     def entry_from_row(self, row):
         return IDSEntry("%s-%s" % (row[0], row[1]), ";".join(filter(None, row[3:10])), "", "")
+

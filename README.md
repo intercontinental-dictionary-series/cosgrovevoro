@@ -1,8 +1,14 @@
 # Võro IDS wordlist by Leon Cosgrove and Sulev Iva
 
-Cite the source dataset as
+## How to cite
 
-> Leon Cosgrove and Sulev Iva. 2020. Võro dictionary. In: Key, Mary Ritchie & Comrie, Bernard (eds.) The Intercontinental Dictionary Series. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at http://ids.clld.org/)
+If you use these data please cite
+- the original source
+  > Leon Cosgrove and Sulev Iva. 2020. Võro dictionary. In: Key, Mary Ritchie & Comrie, Bernard (eds.) The Intercontinental Dictionary Series. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at http://ids.clld.org/)
+- the derived dataset using the DOI of the [particular released version](../../releases/) you were using
+
+## Description
+
 
 This dataset is licensed under a CC-BY-4.0 license
 
@@ -12,13 +18,13 @@ Conceptlists in Concepticon:
 ## Statistics
 
 
-[![Build Status](https://travis-ci.org/intercontinental-dictionary-series/cosgrovevoro.svg?branch=master)](https://travis-ci.org/intercontinental-dictionary-series/cosgrovevoro)
-![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
-![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
-![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
+[![CLDF validation](https://github.com/intercontinental-dictionary-series/cosgrovevoro/workflows/CLDF-validation/badge.svg)](https://github.com/intercontinental-dictionary-series/cosgrovevoro/actions?query=workflow%3ACLDF-validation)
+![Glottolog: 100%](etc/badge_languages.svg)
+![Concepticon: 100%](etc/badge_concepts.svg)
+![Source: 100%](etc/badge_sources.svg)
 
-- **Varieties:** 1
-- **Concepts:** 1,310
+- **Varieties:** 1 (linked to 1 different Glottocodes)
+- **Concepts:** 1,310 (linked to 1,308 different Concepticon concept sets)
 - **Lexemes:** 3,654
 - **Sources:** 1
 - **Synonymy:** 2.79
@@ -31,3 +37,10 @@ Leon Cosgrove |  | author, data entry | Author, DataCurator
 Sulev Iva |  | author | Author
 Hans-Jörg Bibiko | @Bibiko | patron, code | Maintainer
 
+
+
+## CLDF Datasets
+
+The following CLDF datasets are available in [cldf](cldf):
+
+- CLDF [Wordlist](https://github.com/cldf/cldf/tree/master/modules/Wordlist) at [cldf/cldf-metadata.json](cldf/cldf-metadata.json)

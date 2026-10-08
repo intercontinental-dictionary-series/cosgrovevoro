@@ -15,7 +15,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 1-280,cave,1155,CAVE
 1-310,water,948,WATER
 1-320,sea,1474,SEA
-1-322,calm (of sea),,
+1-322,calm (of sea),3820,CALM (OF SEA)
 1-323,rough (of sea),259,ROUGH (OF SEA)
 1-324,foam,1768,FOAM
 1-329,ocean,645,OCEAN
@@ -166,7 +166,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 3-350,pig,1337,PIG
 3-360,goat,1502,GOAT
 3-370,he-goat,2475,MALE GOAT
-3-380,kid,1972,KID
+3-380,kid,1972,YOUNG GOAT (KID)
 3-410,horse (equine),615,HORSE
 3-420,stallion,936,STALLION
 3-440,mare,938,MARE
