@@ -1,5 +1,7 @@
 # Võro IDS wordlist by Leon Cosgrove and Sulev Iva
 
+[![CLDF validation](https://github.com/intercontinental-dictionary-series/cosgrovevoro/workflows/CLDF-validation/badge.svg)](https://github.com/intercontinental-dictionary-series/cosgrovevoro/actions?query=workflow%3ACLDF-validation)
+
 ## How to cite
 
 If you use these data please cite
@@ -35,7 +37,10 @@ Name               | GitHub user     | Description                          | Ro
 ---                | ---             | ---                                  | ---
 Leon Cosgrove |  | author, data entry | Author, DataCurator
 Sulev Iva |  | author | Author
-Hans-Jörg Bibiko | @Bibiko | patron, code | Maintainer
+Hans-Jörg Bibiko | | patron, code | Maintainer
+Robert Forkel | @xrotwang | patron, code | Maintainer
+
+
 
 
 

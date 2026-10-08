@@ -4,4 +4,6 @@ Name               | GitHub user     | Description                          | Ro
 ---                | ---             | ---                                  | ---
 Leon Cosgrove |  | author, data entry | Author, DataCurator
 Sulev Iva |  | author | Author
-Hans-Jörg Bibiko | @Bibiko | patron, code | Maintainer
+Hans-Jörg Bibiko | | patron, code | Maintainer
+Robert Forkel | @xrotwang | patron, code | Maintainer
+

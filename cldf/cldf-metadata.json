@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://github.com/intercontinental-dictionary-series/cosgrovevoro",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0",
+            "dc:created": "v1.0-2-gee61b8b",
             "dc:title": "Repository"
         },
         {
